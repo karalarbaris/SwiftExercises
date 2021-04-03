@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1570E384261911DD00313C92 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1570E383261911DD00313C92 /* main.swift */; };
+		152710D32619164800EE9EF6 /* Protocols and Delegates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 152710D22619164800EE9EF6 /* Protocols and Delegates.swift */; };
+		152710DC2619191100EE9EF6 /* Protocols Demo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1570E383261911DD00313C92 /* Protocols Demo.swift */; };
+		152710E126191B3F00EE9EF6 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 152710E026191B3F00EE9EF6 /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +25,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		152710D22619164800EE9EF6 /* Protocols and Delegates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Protocols and Delegates.swift"; sourceTree = "<group>"; };
+		152710E026191B3F00EE9EF6 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		1570E3752619115900313C92 /* SwiftExercises */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SwiftExercises; sourceTree = BUILT_PRODUCTS_DIR; };
-		1570E383261911DD00313C92 /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		1570E383261911DD00313C92 /* Protocols Demo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Protocols Demo.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +42,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		152710D12619162F00EE9EF6 /* Protocols and Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				152710D22619164800EE9EF6 /* Protocols and Delegates.swift */,
+			);
+			name = "Protocols and Delegates";
+			path = "../../Protocols and Delegates/Protocols and Delegates";
+			sourceTree = "<group>";
+		};
 		1570E36C2619115900313C92 = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +71,8 @@
 			isa = PBXGroup;
 			children = (
 				1570E382261911C100313C92 /* Protocols Demo */,
+				152710D12619162F00EE9EF6 /* Protocols and Delegates */,
+				152710E026191B3F00EE9EF6 /* main.swift */,
 			);
 			path = SwiftExercises;
 			sourceTree = "<group>";
@@ -65,7 +80,7 @@
 		1570E382261911C100313C92 /* Protocols Demo */ = {
 			isa = PBXGroup;
 			children = (
-				1570E383261911DD00313C92 /* main.swift */,
+				1570E383261911DD00313C92 /* Protocols Demo.swift */,
 			);
 			path = "Protocols Demo";
 			sourceTree = "<group>";
@@ -127,7 +142,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1570E384261911DD00313C92 /* main.swift in Sources */,
+				152710DC2619191100EE9EF6 /* Protocols Demo.swift in Sources */,
+				152710D32619164800EE9EF6 /* Protocols and Delegates.swift in Sources */,
+				152710E126191B3F00EE9EF6 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

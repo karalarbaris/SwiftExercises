@@ -50,24 +50,25 @@ struct Airplane: CanFly {
     
 }
 
-
-let myEagle = Eagle()
-//myEagle.fly()
-//myEagle.layEgg()
-//myEagle.soar()
 //
-let myPenguin = Penguin()
-//myPenguin.layEgg()
-//myPenguin.swim()
-//myPenguin.fly() //Penguins can't fly
-
-let museum = FlyingMuseum()
-
-let myAirplane = Airplane()
-
-
-myEagle.fly()
-museum.flyingDemo(flyingObject: myEagle)
-myAirplane.fly()
-//museum.flyingDemo(flyingObject: myPenguin) //Penguins can't fly
-
+////Protocols Demo
+//
+//let myEagle = Eagle()
+////myEagle.fly()
+////myEagle.layEgg()
+////myEagle.soar()
+////
+//let myPenguin = Penguin()
+////myPenguin.layEgg()
+////myPenguin.swim()
+////myPenguin.fly() //Penguins can't fly
+//
+//let museum = FlyingMuseum()
+//
+//let myAirplane = Airplane()
+//
+//
+//myEagle.fly()
+//museum.flyingDemo(flyingObject: myEagle)
+//myAirplane.fly()
+////museum.flyingDemo(flyingObject: myPenguin) //Penguins can't fly
