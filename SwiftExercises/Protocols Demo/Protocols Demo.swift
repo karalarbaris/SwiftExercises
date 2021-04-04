@@ -1,55 +1,55 @@
-protocol CanFly {
-    func fly()
-}
-
-
-class Bird {
-    
-    var isFemale = true
-    
-    func layEgg() {
-        print("The bird makes a new word in a shell")
-    }
-    
-//    func fly() {
-//        print("Flaps its wings and lifts off into the sky")
+//protocol CanFly {
+//    func fly()
+//}
+//
+//
+//class Bird {
+//    
+//    var isFemale = true
+//    
+//    func layEgg() {
+//        print("The bird makes a new word in a shell")
 //    }
-}
-
-
-class Eagle: Bird, CanFly {
-    
-    func fly() {
-        print("Eagle flaps its wings and lifts off into the sky")
-    }
-    
-    func soar() {
-        print("The eagle soars")
-    }
-}
-
-class Penguin: Bird {
-    
-    func swim() {
-        print("Penguin swims")
-    }
-}
-
-struct FlyingMuseum {
-    
-    func flyingDemo(flyingObject: CanFly) {
-        flyingObject.fly()
-    }
-}
-
-struct Airplane: CanFly {
-    func fly() {
-        print("Airplane flies")
-    }
-    
-    
-}
-
+//    
+////    func fly() {
+////        print("Flaps its wings and lifts off into the sky")
+////    }
+//}
+//
+//
+//class Eagle: Bird, CanFly {
+//    
+//    func fly() {
+//        print("Eagle flaps its wings and lifts off into the sky")
+//    }
+//    
+//    func soar() {
+//        print("The eagle soars")
+//    }
+//}
+//
+//class Penguin: Bird {
+//    
+//    func swim() {
+//        print("Penguin swims")
+//    }
+//}
+//
+//struct FlyingMuseum {
+//    
+//    func flyingDemo(flyingObject: CanFly) {
+//        flyingObject.fly()
+//    }
+//}
+//
+//struct Airplane: CanFly {
+//    func fly() {
+//        print("Airplane flies")
+//    }
+//    
+//    
+//}
+//
 //
 ////Protocols Demo
 //
