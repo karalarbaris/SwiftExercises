@@ -11,6 +11,8 @@
 		152710E126191B3F00EE9EF6 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 152710E026191B3F00EE9EF6 /* main.swift */; };
 		152E8597261A507E0012C0F6 /* Protocols and Delegates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 152E8596261A507E0012C0F6 /* Protocols and Delegates.swift */; };
 		152E859C261A53060012C0F6 /* Closures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 152E859B261A53060012C0F6 /* Closures.swift */; };
+		157DADB4261FC41A001486F3 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 157DADB3261FC41A001486F3 /* Extensions.swift */; };
+		157DADB7261FC4CE001486F3 /* Extension for Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 157DADB6261FC4CE001486F3 /* Extension for Protocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +33,8 @@
 		152E859B261A53060012C0F6 /* Closures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Closures.swift; sourceTree = "<group>"; };
 		1570E3752619115900313C92 /* SwiftExercises */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SwiftExercises; sourceTree = BUILT_PRODUCTS_DIR; };
 		1570E383261911DD00313C92 /* Protocols Demo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Protocols Demo.swift"; sourceTree = "<group>"; };
+		157DADB3261FC41A001486F3 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		157DADB6261FC4CE001486F3 /* Extension for Protocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension for Protocol.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +84,7 @@
 		1570E3772619115900313C92 /* SwiftExercises */ = {
 			isa = PBXGroup;
 			children = (
+				157DADB2261FC40D001486F3 /* Extensions */,
 				152E859A261A52F60012C0F6 /* Closures */,
 				152E8595261A507E0012C0F6 /* Protocols and Delegates */,
 				1570E382261911C100313C92 /* Protocols Demo */,
@@ -94,6 +99,15 @@
 				1570E383261911DD00313C92 /* Protocols Demo.swift */,
 			);
 			path = "Protocols Demo";
+			sourceTree = "<group>";
+		};
+		157DADB2261FC40D001486F3 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				157DADB3261FC41A001486F3 /* Extensions.swift */,
+				157DADB6261FC4CE001486F3 /* Extension for Protocol.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -153,6 +167,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				157DADB4261FC41A001486F3 /* Extensions.swift in Sources */,
+				157DADB7261FC4CE001486F3 /* Extension for Protocol.swift in Sources */,
 				152710DC2619191100EE9EF6 /* Protocols Demo.swift in Sources */,
 				152E859C261A53060012C0F6 /* Closures.swift in Sources */,
 				152E8597261A507E0012C0F6 /* Protocols and Delegates.swift in Sources */,
