@@ -14,6 +14,7 @@
 		157DADB4261FC41A001486F3 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 157DADB3261FC41A001486F3 /* Extensions.swift */; };
 		157DADB7261FC4CE001486F3 /* Extension for Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 157DADB6261FC4CE001486F3 /* Extension for Protocol.swift */; };
 		1592BC45262DC4D60059BDE2 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1592BC44262DC4D60059BDE2 /* Constants.swift */; };
+		15F2B1F8262E272200ED6536 /* Type Casting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15F2B1F7262E272200ED6536 /* Type Casting.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -37,6 +38,7 @@
 		157DADB3261FC41A001486F3 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		157DADB6261FC4CE001486F3 /* Extension for Protocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension for Protocol.swift"; sourceTree = "<group>"; };
 		1592BC44262DC4D60059BDE2 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		15F2B1F7262E272200ED6536 /* Type Casting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Type Casting.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 		1570E3772619115900313C92 /* SwiftExercises */ = {
 			isa = PBXGroup;
 			children = (
+				15F2B1F5262E270C00ED6536 /* Type Casting */,
 				1592BC43262DC4C20059BDE2 /* Constants */,
 				157DADB2261FC40D001486F3 /* Extensions */,
 				152E859A261A52F60012C0F6 /* Closures */,
@@ -119,6 +122,14 @@
 				1592BC44262DC4D60059BDE2 /* Constants.swift */,
 			);
 			path = Constants;
+			sourceTree = "<group>";
+		};
+		15F2B1F5262E270C00ED6536 /* Type Casting */ = {
+			isa = PBXGroup;
+			children = (
+				15F2B1F7262E272200ED6536 /* Type Casting.swift */,
+			);
+			path = "Type Casting";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -178,6 +189,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15F2B1F8262E272200ED6536 /* Type Casting.swift in Sources */,
 				157DADB4261FC41A001486F3 /* Extensions.swift in Sources */,
 				157DADB7261FC4CE001486F3 /* Extension for Protocol.swift in Sources */,
 				152710DC2619191100EE9EF6 /* Protocols Demo.swift in Sources */,
