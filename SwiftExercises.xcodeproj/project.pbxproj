@@ -11,6 +11,7 @@
 		152710E126191B3F00EE9EF6 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 152710E026191B3F00EE9EF6 /* main.swift */; };
 		152E8597261A507E0012C0F6 /* Protocols and Delegates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 152E8596261A507E0012C0F6 /* Protocols and Delegates.swift */; };
 		152E859C261A53060012C0F6 /* Closures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 152E859B261A53060012C0F6 /* Closures.swift */; };
+		15329FA82649C4380030620C /* ComputedProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15329FA72649C4380030620C /* ComputedProperties.swift */; };
 		157DADB4261FC41A001486F3 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 157DADB3261FC41A001486F3 /* Extensions.swift */; };
 		157DADB7261FC4CE001486F3 /* Extension for Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 157DADB6261FC4CE001486F3 /* Extension for Protocol.swift */; };
 		1592BC45262DC4D60059BDE2 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1592BC44262DC4D60059BDE2 /* Constants.swift */; };
@@ -34,6 +35,7 @@
 		152710E026191B3F00EE9EF6 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		152E8596261A507E0012C0F6 /* Protocols and Delegates.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Protocols and Delegates.swift"; sourceTree = "<group>"; };
 		152E859B261A53060012C0F6 /* Closures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Closures.swift; sourceTree = "<group>"; };
+		15329FA72649C4380030620C /* ComputedProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComputedProperties.swift; sourceTree = "<group>"; };
 		1570E3752619115900313C92 /* SwiftExercises */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SwiftExercises; sourceTree = BUILT_PRODUCTS_DIR; };
 		1570E383261911DD00313C92 /* Protocols Demo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Protocols Demo.swift"; sourceTree = "<group>"; };
 		157DADB3261FC41A001486F3 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
@@ -71,6 +73,14 @@
 			path = Closures;
 			sourceTree = "<group>";
 		};
+		15329FA62649C41B0030620C /* Computed Properties */ = {
+			isa = PBXGroup;
+			children = (
+				15329FA72649C4380030620C /* ComputedProperties.swift */,
+			);
+			path = "Computed Properties";
+			sourceTree = "<group>";
+		};
 		1570E36C2619115900313C92 = {
 			isa = PBXGroup;
 			children = (
@@ -90,6 +100,7 @@
 		1570E3772619115900313C92 /* SwiftExercises */ = {
 			isa = PBXGroup;
 			children = (
+				15329FA62649C41B0030620C /* Computed Properties */,
 				15F2B2392635F5BE00ED6536 /* UserDefaults */,
 				15F2B1F5262E270C00ED6536 /* Type Casting */,
 				1592BC43262DC4C20059BDE2 /* Constants */,
@@ -209,6 +220,7 @@
 				1592BC45262DC4D60059BDE2 /* Constants.swift in Sources */,
 				152E8597261A507E0012C0F6 /* Protocols and Delegates.swift in Sources */,
 				152710E126191B3F00EE9EF6 /* main.swift in Sources */,
+				15329FA82649C4380030620C /* ComputedProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
