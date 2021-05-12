@@ -11,6 +11,9 @@
 		152710E126191B3F00EE9EF6 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 152710E026191B3F00EE9EF6 /* main.swift */; };
 		152E8597261A507E0012C0F6 /* Protocols and Delegates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 152E8596261A507E0012C0F6 /* Protocols and Delegates.swift */; };
 		152E859C261A53060012C0F6 /* Closures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 152E859B261A53060012C0F6 /* Closures.swift */; };
+		15305C2B264C786400D330E2 /* Structs vs. Classes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15305C2A264C786400D330E2 /* Structs vs. Classes.swift */; };
+		15305C2D264C788400D330E2 /* ClassExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15305C2C264C788400D330E2 /* ClassExample.swift */; };
+		15305C2F264C789500D330E2 /* StructExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15305C2E264C789500D330E2 /* StructExample.swift */; };
 		15329FA82649C4380030620C /* ComputedProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15329FA72649C4380030620C /* ComputedProperties.swift */; };
 		15329FAA264AAC260030620C /* Example.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15329FA9264AAC260030620C /* Example.swift */; };
 		157DADB4261FC41A001486F3 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 157DADB3261FC41A001486F3 /* Extensions.swift */; };
@@ -36,6 +39,9 @@
 		152710E026191B3F00EE9EF6 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		152E8596261A507E0012C0F6 /* Protocols and Delegates.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Protocols and Delegates.swift"; sourceTree = "<group>"; };
 		152E859B261A53060012C0F6 /* Closures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Closures.swift; sourceTree = "<group>"; };
+		15305C2A264C786400D330E2 /* Structs vs. Classes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Structs vs. Classes.swift"; sourceTree = "<group>"; };
+		15305C2C264C788400D330E2 /* ClassExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassExample.swift; sourceTree = "<group>"; };
+		15305C2E264C789500D330E2 /* StructExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructExample.swift; sourceTree = "<group>"; };
 		15329FA72649C4380030620C /* ComputedProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComputedProperties.swift; sourceTree = "<group>"; };
 		15329FA9264AAC260030620C /* Example.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example.swift; sourceTree = "<group>"; };
 		1570E3752619115900313C92 /* SwiftExercises */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SwiftExercises; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -75,6 +81,16 @@
 			path = Closures;
 			sourceTree = "<group>";
 		};
+		15305C29264C785200D330E2 /* Structs vs. Classes */ = {
+			isa = PBXGroup;
+			children = (
+				15305C2A264C786400D330E2 /* Structs vs. Classes.swift */,
+				15305C2C264C788400D330E2 /* ClassExample.swift */,
+				15305C2E264C789500D330E2 /* StructExample.swift */,
+			);
+			path = "Structs vs. Classes";
+			sourceTree = "<group>";
+		};
 		15329FA62649C41B0030620C /* Computed Properties */ = {
 			isa = PBXGroup;
 			children = (
@@ -103,6 +119,7 @@
 		1570E3772619115900313C92 /* SwiftExercises */ = {
 			isa = PBXGroup;
 			children = (
+				15305C29264C785200D330E2 /* Structs vs. Classes */,
 				15329FA62649C41B0030620C /* Computed Properties */,
 				15F2B2392635F5BE00ED6536 /* UserDefaults */,
 				15F2B1F5262E270C00ED6536 /* Type Casting */,
@@ -215,10 +232,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				15F2B1F8262E272200ED6536 /* Type Casting.swift in Sources */,
+				15305C2F264C789500D330E2 /* StructExample.swift in Sources */,
 				157DADB4261FC41A001486F3 /* Extensions.swift in Sources */,
 				157DADB7261FC4CE001486F3 /* Extension for Protocol.swift in Sources */,
 				152710DC2619191100EE9EF6 /* Protocols Demo.swift in Sources */,
 				152E859C261A53060012C0F6 /* Closures.swift in Sources */,
+				15305C2D264C788400D330E2 /* ClassExample.swift in Sources */,
+				15305C2B264C786400D330E2 /* Structs vs. Classes.swift in Sources */,
 				15F2B23B2635F5D000ED6536 /* UserDefaults.swift in Sources */,
 				15329FAA264AAC260030620C /* Example.swift in Sources */,
 				1592BC45262DC4D60059BDE2 /* Constants.swift in Sources */,
