@@ -14,6 +14,7 @@
 		15305C2B264C786400D330E2 /* Structs vs. Classes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15305C2A264C786400D330E2 /* Structs vs. Classes.swift */; };
 		15305C2D264C788400D330E2 /* ClassExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15305C2C264C788400D330E2 /* ClassExample.swift */; };
 		15305C2F264C789500D330E2 /* StructExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15305C2E264C789500D330E2 /* StructExample.swift */; };
+		15305C32264D494E00D330E2 /* Tuples.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15305C31264D494E00D330E2 /* Tuples.swift */; };
 		15329FA82649C4380030620C /* ComputedProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15329FA72649C4380030620C /* ComputedProperties.swift */; };
 		15329FAA264AAC260030620C /* Example.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15329FA9264AAC260030620C /* Example.swift */; };
 		157DADB4261FC41A001486F3 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 157DADB3261FC41A001486F3 /* Extensions.swift */; };
@@ -42,6 +43,7 @@
 		15305C2A264C786400D330E2 /* Structs vs. Classes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Structs vs. Classes.swift"; sourceTree = "<group>"; };
 		15305C2C264C788400D330E2 /* ClassExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassExample.swift; sourceTree = "<group>"; };
 		15305C2E264C789500D330E2 /* StructExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructExample.swift; sourceTree = "<group>"; };
+		15305C31264D494E00D330E2 /* Tuples.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tuples.swift; sourceTree = "<group>"; };
 		15329FA72649C4380030620C /* ComputedProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComputedProperties.swift; sourceTree = "<group>"; };
 		15329FA9264AAC260030620C /* Example.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example.swift; sourceTree = "<group>"; };
 		1570E3752619115900313C92 /* SwiftExercises */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SwiftExercises; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -91,6 +93,14 @@
 			path = "Structs vs. Classes";
 			sourceTree = "<group>";
 		};
+		15305C30264D494100D330E2 /* Tuples */ = {
+			isa = PBXGroup;
+			children = (
+				15305C31264D494E00D330E2 /* Tuples.swift */,
+			);
+			path = Tuples;
+			sourceTree = "<group>";
+		};
 		15329FA62649C41B0030620C /* Computed Properties */ = {
 			isa = PBXGroup;
 			children = (
@@ -119,6 +129,7 @@
 		1570E3772619115900313C92 /* SwiftExercises */ = {
 			isa = PBXGroup;
 			children = (
+				15305C30264D494100D330E2 /* Tuples */,
 				15305C29264C785200D330E2 /* Structs vs. Classes */,
 				15329FA62649C41B0030620C /* Computed Properties */,
 				15F2B2392635F5BE00ED6536 /* UserDefaults */,
@@ -232,6 +243,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				15F2B1F8262E272200ED6536 /* Type Casting.swift in Sources */,
+				15305C32264D494E00D330E2 /* Tuples.swift in Sources */,
 				15305C2F264C789500D330E2 /* StructExample.swift in Sources */,
 				157DADB4261FC41A001486F3 /* Extensions.swift in Sources */,
 				157DADB7261FC4CE001486F3 /* Extension for Protocol.swift in Sources */,
